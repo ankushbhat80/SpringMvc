@@ -1,5 +1,6 @@
 package com.journaldev.spring;
 
+//Feature branch
 public class Child extends Parent {
 	
 	
