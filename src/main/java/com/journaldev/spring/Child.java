@@ -1,6 +1,9 @@
 package com.journaldev.spring;
 
 public class Child extends Parent {
+	
+	
+	
 
 
 
