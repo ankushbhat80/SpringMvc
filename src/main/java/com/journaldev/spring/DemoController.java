@@ -50,8 +50,12 @@ public class DemoController {
 		  headers.add("Number Of Records Found", String.valueOf(employees.size()));
 		  return new ResponseEntity<List<Employee>>(employees, headers, HttpStatus.OK);
 		 }
-	/* GET */
+	/* GET
+	  THis is a get method
+	*  */
     @SuppressWarnings("unchecked")
+
+
 	  @RequestMapping(value="/rest2",method = RequestMethod.GET)
 	    public void rest2() throws JsonParseException, JsonMappingException, IOException{
 	    // RestTemplate restTemplate = new RestTemplate();
