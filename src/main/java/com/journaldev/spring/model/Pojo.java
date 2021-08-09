@@ -1,5 +1,6 @@
 package com.journaldev.spring.model;
 
+//Changes in master
 public class Pojo {
 	 private String number;
 
